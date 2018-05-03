@@ -1,0 +1,19 @@
+﻿.pointer {
+    cursor: pointer;
+}
+
+.autocomplete-list .list-group-item {
+    padding: 0.25rem .5rem;
+}
+
+/* Validation */
+
+.form-group label {
+    font-weight: bold;
+}
+
+.required label:after {
+    color: #e32;
+    content: ' *';
+    display: inline;
+}

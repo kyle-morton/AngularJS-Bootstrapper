@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Angular Application</title>
+        <base href="/">
+        
+        <link href="/assets/content/bootstrap/bootstrap.min.css" rel="stylesheet" />
+        <link href="/assets/styles/font-awesome.min.css" rel="stylesheet" />
+        <link href="/assets/styles/app.css" rel="stylesheet" />
+    </head>
+    <body ng-app="AngularApp">
+
+        <div id="ContentContainer" class="container">
+
+            <div ui-view="contentView"></div>
+
+        </div>
+
+        <!-- Bootstrap, jQuery -->
+        <script src="/assets/scripts/jquery-3.3.1.min.js"></script>
+        <script src="/assets/content/bootstrap/bootstrap.min.js"></script>
+
+        <!-- Angular -->
+        <script src="/assets/scripts/angular.min.js"></script>
+        <script src="/assets/scripts/angular-ui-router.min.js"></script>
+        <script src="/assets/scripts/angular-resource.min.js"></script>
+        <script src="/assets/scripts/ng-file-upload.min.js"></script>
+
+        <!-- App -->
+        <script src="app.js"></script>
+        <script src="/Constants/constants.js"></script>
+        <script src="/Services/api.js"></script>
+        <script src="/Services/promise.js"></script>
+        <script src="/Services/storage.js"></script>
+        <script src="/App/home/home.js"></script>
+
+    </body>
+</html>
